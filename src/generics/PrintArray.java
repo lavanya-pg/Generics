@@ -4,13 +4,15 @@ public class PrintArray
 {
 	public static void main(String[] args)
 	{
-		float a = (float) 10.9, b = (float) 80.5, c= (float) 70.7;
-		if ( a>b && a>c )
-		System.out.println(a+ " is the largest number");
-		else if ( b>a && b>c)
-		System.out.println(b+  " is the largest number");
+		String s1 = "person";
+		String s2 = "dog";
+		String s3 = "bird";
+		if ( s1.length()>s2.length() && s1.length()>s3.length() )
+		System.out.println("largest String is" +s1);
+		else if ( s2.length()>s1.length() && s2.length()>s3.length())
+		System.out.println("largest String is" +s2);
 		else
-		System.out.println(c+  " is the largest number");
+		System.out.println("largest String is:" +s3);
 	}
 
 }
